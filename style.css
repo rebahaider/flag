@@ -16,4 +16,12 @@ body{
     border-radius: 50%;
     overflow: hidden;
     margin: 90px auto;
+    display: none;
+}
+
+.green:hover {
+    background-color: #264118;
+}
+.green:hover .red{
+    display: block;
 }
